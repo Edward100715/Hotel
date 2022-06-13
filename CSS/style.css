@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 50px;
+}
+
+.box{
+    background-color: black;
+    border: 3px solid rgb(0, 4, 255);
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    margin: 200px 80px;
+    justify-content: center;
+}
+
+.cotizar {
+    text-align: center;
+    padding-top: 50px;
+}
+
+img {
+    margin: 5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 250px;
+    height: 250px;
+}
